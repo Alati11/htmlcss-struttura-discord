@@ -9,3 +9,37 @@ body {
 	display: flex;
 	flex-direction: column;
 }
+
+.debug .page-header,
+.debug .page-footer {
+	padding: 10px;
+	background-color:#ADD8E6;
+	min-height: 60px;
+}
+
+.debug .container {
+	padding: 10px;
+	border: 2px solid black;
+}
+
+.row {
+	padding: 10px;
+	border: 2px solid violet;   
+    background-color: #DAA53B;
+    display: flex;
+    justify-content: space-between;
+    width:600px;
+    margin: auto;
+}
+.nav{   
+    border: 2px solid black;
+}
+
+.container {
+    min-height: 250px;
+	margin: 0 auto;
+}   
+.col{
+    flex-basis: calc(100%);
+
+}

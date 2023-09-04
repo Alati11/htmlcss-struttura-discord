@@ -22,7 +22,7 @@ body {
 	border: 2px solid black;
 }
 
-.row {
+.conteiner-nav{
 	padding: 10px;
 	border: 2px solid violet;   
     background-color: #DAA53B;
@@ -31,15 +31,30 @@ body {
     width:600px;
     margin: auto;
 }
-.nav{   
-    border: 2px solid black;
+
+.row {
+    background-color: #EE82EE;
+    padding: 10px;
+    border: 2px solid black;    
+    display: flex;  
+    flex-wrap: wrap;
+    width:400px;
+    min-height: 250px;
+    margin: auto;
+    
 }
 
 .container {
-    min-height: 250px;
+    min-height: 100px;
 	margin: 0 auto;
+    background-color: #0A238B;
 }   
-.col{
-    flex-basis: calc(100%);
+.col-1 {
+    width: 200px;
+    height: 200px;
+    
+
+}
+.main-content{
 
 }

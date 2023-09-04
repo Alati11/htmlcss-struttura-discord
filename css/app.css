@@ -40,21 +40,60 @@ body {
     flex-wrap: wrap;
     width:400px;
     min-height: 250px;
-    margin: auto;
+    margin: 15px auto;   
+}
+.row-2 {
+    background-color:#EE82EE;
+    padding: 10px;
+    border: 2px solid black;    
+    display: flex;  
+    flex-wrap: wrap;
+    width:600px;
+    min-height: 250px;
+    margin: 15px auto;
     
 }
 
-.container {
+.conteiner {
     min-height: 100px;
 	margin: 0 auto;
+    padding: 15px;
     background-color: #0A238B;
 }   
+.conteiner-white {
+    min-height: 100px;
+	margin: 15px auto;
+    padding:15x;
+    background-color:white;
+}
+
+.conteiner-grey{
+    min-height: 100px;
+	margin: 15px auto;
+    padding:15x;
+    background-color:#D3D3D3;
+
+}
 .col-1 {
     width: 200px;
     height: 200px;
-    
+}
+
+.col-2 {flex-basis: calc(100% / 2);
+    background-color:#2A8FF7;
+
+}
+.col-3 {flex-basis: calc(100% / 2);
+    background-color: #F6BFCA   ;
 
 }
 .main-content{
 
 }
+.debug [class^='col-'] {
+	min-height: 100px;
+	padding: 10px;
+	
+	color: white;
+	font-weight: 700;
+}       
